@@ -1,0 +1,18 @@
+
+SPACES	ignored		CASE     upper or lower
+VARIABLES	x, y		BRACKETS ( )
+NUMBERS	eg 1, 1.1, -3.77	pi = 3.1415927
+OPERATIONS	^  *  /  +  -		Operation priority    ^  *   /  +  -
+-------------------------------------FUNCTIONS--------------------------------------------------
+sin(x)     sine		cos(x)    cosine
+tan(x)    tangent		atn(x)    arctan    +/- pi/2
+ln(x)       natural log		exp(x)   exponential     x<= 88	
+abs(x)   absolute		cint(x)    round to integer
+sqr(x)    square root
+------------------------------DERIVED FUNCTIONS----------------------------------------
+log(x)    base 10 log	= ln(x) / ln(10)
+asin(x)   arcsin		= atn(x / sqr(1 - x^2))    x<1
+acos(x)  arccos		= pi / 2 - asin(x)              x<1
+sinh(x)   hyperbolic sin	= (exp(x) -  exp( - x)) / 2
+cosh(x)  hyperbolic cos	= (exp(x) + exp( - x)) / 2
+tanh(x)  hyperbolic tan	= sinh(x) / cosh(x)

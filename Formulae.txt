@@ -1,0 +1,30 @@
+x ^ 2 +y ^ 2: Put Perspec On & roll into ball  & do Y-rot only, 6 ,-6 , 6 ,-6 , 100 , 20 
+x ^ 2 -y ^ 2: Saddle, 6 ,-6 , 6 ,-6 , 100 , 20 
+(x ^ 2 +y ^ 2)^2: Balloon Perspec On & Y-rot only, 6 ,-6 , 6 ,-6 , 100 , 20 
+sqr(abs((x-6)^2-(y-6)^2)): Butterfly 1, 6 ,-6 , 6 ,-6 , 100 , 100 
+(x+y)^2: Butterfly 2, 1 ,-1 , 1 ,-1 , 100 , 100 
+x^2+abs(y)^.5: Bent strip 1, 6 ,-6 , 6 ,-6 , 100 , 100 
+y^4-y^2-x^2: Bent strip 2, 6 ,-6 , 1 ,-1 , 120 , 100 
+sqr(x^2+y^2): Cornered cone, 10 ,-10 , 10 ,-10 , 100 , 100 
+x^3+2*x*y+y^2: Cubic twisted strip, 3 ,-3 , 3 ,-3 , 100 , 100 
+exp(-(x^2+y^2)): Edge spike, 3 ,-3 , 5 , 0 , 100 , 100 
+sin(sqr((x/6)^2+(y/6)^2)): Center spike, 10 ,-10 , 10 ,-10 , 100 , 100 
+tanh(x^2+y^2): Center spike 2, 2 ,-2 , 2 ,-2 , 100 , 50 
+sin(sqr(x^2+y^2)): Concentric rings, 10 ,-10 , 10 ,-10 , 100 , 100 
+sin(x)+cos(y): Trig hills Egg holder, 10 ,-10 , 10 ,-10 , 100 , 100 
+sinh(x+y): Ledge, 2 ,-2 , 2 ,-2 , 100 , 50 
+cosh(x+y): Bat wing, 2 ,-2 , 2 ,-2 , 100 , 50 
+tanh(x+y): Flying sheet, 2 ,-2 , 2 ,-2 , 100 , 50 
+sqr(abs(tanh(x+y))): Stingray, 2 ,-2 , 2 ,-2 , 100 , 50 
+acos(x/21+y/21): Sheet with bent corner, 10 , 0 , 10 ,-10 , 100 , 50 
+log(x+y): Log sheet(ignore error), 10 , 0 , 10 , 0 , 50 , 10 
+sinh(x)+cosh(y): Seat, 2 ,-2 , 6 ,-6 , 100 , 100 
+(x-sin(x))+(y-cos(x)): Corrugated sheet, 10 ,-10 , 10 ,-10 , 100 , 100 
+cos(x)^3+sin(x)^3: Shaver head, 10 ,-10 , 10 ,-10 , 100 , 100 
+(x^3+y^3)-10*x*y: Wicker chairs, 6 ,-6 , 6 ,-6 , 400 , 20 
+x*cos(y): Escalators, 10 ,-10 , 10 ,-10 , 100 , 100 
+exp(-x*y): 3D corner, 6 , 0 , 6 , 0 , 100 , 20 
+exp(-abs(cos(x+y))): Spiked waves, 6 , 1 , 8 , 1 , 100 , 20 
+exp(-abs(cos(x)+sin(y))): Domed surface, 6 , 1 , 8 , 1 , 100 , 20 
+atn(cos(x+y)+sin(x+y)): Wavy sheet, 2 ,-2 , 2 ,-2 , 100 , 50 
+cint(cos(x+y)+sin(x+y)): Origami?, 2 ,-2 , 2 ,-2 , 100 , 50 
